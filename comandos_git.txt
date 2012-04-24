@@ -44,6 +44,7 @@ Trazer updates
 
 Commit 
   git add .
+  git commit -m 'outro commit'
   git push origin master
 
 
