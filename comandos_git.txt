@@ -33,4 +33,17 @@ When you're done:
 
   Continue
 
+Checkout com atualizacoes do principal 
+  git clone git@github.com:medcescato/depot-java.git
+  git remote add upstream git://github.com/depot-java.git
+  git fetch upstream
+
+Trazer updates
+  git fetch upstream
+  git merge upstream/master
+
+Commit 
+  git add .
+  git push origin master
+
 
